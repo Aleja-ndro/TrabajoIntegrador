@@ -35,32 +35,19 @@
   }
 
   /*aca comienza  el estilo del carrusel*/
-
- /* #descripcion  {
-    font-size: 6rem;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    text-align: right;
-    margin-top: 20%;
-    
-    
-  }
-
 */
 .carousel{
     max-width: 100%;
     position: absolute;
 }
-
   
 #descripcion {
-    max-width: 50%;
+    max-width: 60%;
     right:0;
     font-size: 18px;  
     padding: 20px;
-    bottom:15%;
-    left: 50%;  
+    bottom:30%;
+    left: 30%;  
   }
 
   #descripcion h5, #descripcion p {
@@ -69,18 +56,29 @@
   }
   
   #descripcion button  {
-    font-size: 18px;  
+    font-size: 18px;
+      
   }
   .ima-carru{
-filter: brightness(0.5);
+    filter: brightness(0.5);
+    transform: scale(1.2);
   }
-  /* aqui continuamos con el sector de las cards*/
+  /* aqui continuamos con el sector de las cards
   .card{
     width: 300px;
-    height: auto;
-    display: flex;
-    margin-left: 20%;
-    
+    height: auto;   }*/
+ .tarjetas {
+        display: flex;
+        width: 800px;
+        height: auto;
+        
+      }
+       
+
+.row{
+    display: grid;
+
+   
 }
 /*aca continuamos con el sector de honolulu*/
 
@@ -96,9 +94,40 @@ filter: brightness(0.5);
     font-size: 2rem;
  }
 .tex{
-    background: gray;
-    height: 100%;
+    background: #353a40;
+    color: white;
+    width: 100%;
+}
+.paisa{
+    width: 100%;
+    margin: 0;
+ }
+/*Aca comenzamos con el formulario*/
+.form input{
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10%;
+    
+   }
+.decir{
+    margin:3rem;
+    margin-left: 5rem;
 }
 
-  
+   /* Aca comenzamos con el footer*/
+   footer{
+    height: 60px;
+    background: #1d3744 ;
+    display: flex;
+    justify-content: space-around;
+   }
+   footer li{
+    font-size: 0.7rem;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    color: white;
+    
+    
+   }
   
