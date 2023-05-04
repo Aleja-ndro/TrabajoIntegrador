@@ -81,8 +81,9 @@ filter: brightness(0.5);
     display: flex;
     margin-left: 20%;
     
-    
 }
+/*aca continuamos con el sector de honolulu*/
+
 .honolulu{
     justify-content: space-around;
     position:absolute;
@@ -98,6 +99,6 @@ filter: brightness(0.5);
     background: gray;
     height: 100%;
 }
- 
+
   
   
