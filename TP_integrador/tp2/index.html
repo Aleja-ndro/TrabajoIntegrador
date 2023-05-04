@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="card.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Trabajo integrador</title>
+</head>
+<body>
+  <nav class="container-fluid barra-nav">
+    <div >
+      <div class="row">
+        <div class="col-4 barra-principal">
+          <img src="imagenes/codoacodo.png" alt="logo" class="logo">
+          <a href="#" style>Conf Bs As</a>
+        </div>
+
+        <div class="col-7  lista-nav">
+          <ul>
+            <li><a href="#">La conferecia</a></li>
+            <li><a href="#"style="color: gray;">Los Oradores</a></li>
+            <li><a href="#"style="color: gray;">El lugar y fecha</a></li>
+            <li><a href="#"style="color: gray;">Conviertete en un orador</a></li>
+            <li><a href="#" style="color: greenyellow;" >Compra tickets</a></li>
+          </ul>                                                    
+         </div>   
+    </div>          
+  </nav>
+
+ <section class="carrusel">
+  
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/ba1.jpg" class="w-1000 ima-carru opacity" alt="buenos aires">
+        <div class="carousel-caption d-none d-md-block  " id="descripcion">
+          <h5>Conf Bs As</h5>
+          <p>Bs As llega por primera vez a Argentina. Un evento para compartir con 
+            nuestra comunidad del conocimiento y ecperencia de los expertos que 
+            están creando el futuro de Internet. Ven a conocer a miembros del 
+            evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+          </p>
+          <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/ba3.jpg" class="d-block w-100" alt="paisaje buenos aires">
+        <div class="carousel-caption d-none d-md-block"></div>     
+    </div>
+
+      <div class="carousel-item">
+        <img src="imagenes/ba2.jpg" class="d-block w-100" alt="paisaje buenos aires">
+     >
+          <div class="botones"></div>
+          <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar tickets</button>
+        </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section class="Card">
+      <div class="col-md-12">
+        <p style="text-align: center;font-size: 1rem;margin-bottom: 0;">Conoce a los </p>
+        <p style="text-align: center;font-size: 3rem;">Oradores</p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 tarjetas">
+          <div class="col">
+            <div class="card">
+              <img src="imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
+               <div class="card-body">
+                <button type="button" class="btn btn-warning">Java Script</button>
+                <button type="button" class="btn btn-info">React</button>
+                <h5 class="card-title">Steave Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, a nam laboriosam? This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="imagenes/bill.jpg" class="card-img-top" alt="Bill Gate">
+              <div class="card-body">
+                <button type="button" class="btn btn-warning">Java Scriptg</button>
+                <button type="button" class="btn btn-info">React</button>
+                <h5 class="card-title">Bill Gate</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, a nam laboriosam? This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="imagenes/ada.jpeg" class="card-img-top" alt="Ada">
+              <div class="card-body">
+                <button type="button" class="btn btn-secondary">Negocios</button>
+                <button type="button" class="btn btn-danger">Startup</button>  
+
+                <h5 class="card-title">Ada lovelace</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, a nam laboriosam? This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+   
+      </div>
+      </div>
+      </div>
+</section>
+
+<section class="container-fluid">
+  <div class="row ">
+    <div class="col-sm-6 overflow-hidden ima">
+      <img class="landscape" src="imagenes/honolulu.jpg"  alt="honolulu" id="lugarFecha">
+    </div>
+    <div class="col-sm-12 col-md-6 tex">
+      <h3  >Bs As - Octubre</h3>
+      <p class="landscape-paragraph-info">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+        earum reprehenderit deserunt. Blanditiis reprehenderit repudiandae
+        error quidem laudantium accusantium dolore odit, harum deserunt
+        quaerat similique molestiae. Officiis delectus blanditiis odit.
+      </p>
+      <button class="ms-3 btn btn-outline-light mb-4">Conocé más</button>
+    </div>
+  </div>
+</section>
+        
+
+    
+</body>
+</html>

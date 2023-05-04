@@ -1,0 +1,103 @@
+.logo{
+    width: 25%;
+    height:auto;
+    margin-left: 20%;  
+}
+.barra-nav{      
+    background-color: #353a40;
+    
+   }
+.barra-principal{
+    margin-inline: 2px;
+    font-size: 2px;
+}   
+.barra-principal a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.lista-nav ul {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    list-style: none;
+    font-size:18px;
+    margin: 0.5rem;
+    padding: auto;
+}
+  
+  .lista-nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    
+  }
+
+  /*aca comienza  el estilo del carrusel*/
+
+ /* #descripcion  {
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: right;
+    margin-top: 20%;
+    
+    
+  }
+
+*/
+.carousel{
+    max-width: 100%;
+    position: absolute;
+}
+
+  
+#descripcion {
+    max-width: 50%;
+    right:0;
+    font-size: 18px;  
+    padding: 20px;
+    bottom:15%;
+    left: 50%;  
+  }
+
+  #descripcion h5, #descripcion p {
+    text-align: right;
+    font-size: 25px;
+  }
+  
+  #descripcion button  {
+    font-size: 18px;  
+  }
+  .ima-carru{
+filter: brightness(0.5);
+  }
+  /* aqui continuamos con el sector de las cards*/
+  .card{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin-left: 20%;
+    
+    
+}
+.honolulu{
+    justify-content: space-around;
+    position:absolute;
+}
+ .describe{
+    text-align: right;
+ } 
+ .ora p{
+    text-align: center;
+    font-size: 2rem;
+ }
+.tex{
+    background: gray;
+    height: 100%;
+}
+ 
+  
+  
