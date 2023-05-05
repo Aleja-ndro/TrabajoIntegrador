@@ -1,3 +1,5 @@
+/*Aca comenzamos con la barra de navegación*/
+
 .logo{
     width: 25%;
     height:auto;
@@ -77,45 +79,52 @@
        
 
 /*aca continuamos con el sector de honolulu*/
-
-.honolulu{
-    justify-content: space-around;
-    position:absolute;
+.hono{
+    margin: 0;
+    padding: 0;
 }
- .describe{
-    text-align: right;
- } 
- .ora p{
-    text-align: center;
-    font-size: 2rem;
- }
+.ima{
+    padding: 0;
+}
+
 .tex{
     background: #353a40;
     color: white;
     width: 100%;
+    margin-left: 0;
 }
 .paisa{
     width: 100%;
     margin: 0;
+    padding: 0;
  }
 /*Aca comenzamos con el formulario*/
+.formu {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    padding-top: 0;
+  }
 .form input{
     font-size: 20px;
-    width: 100%;
-    margin-left: 10%;
+    width: 90%;
+    margin:20px auto;
+    display: block;
     
    }
 .decir{
-    margin:3rem;
-    margin-left: 5rem;
+    font-size: 16px;
+    width: 80%;
+    margin-top: 10px;
+    display: block;
 }
 
    /* Aca comenzamos con el footer*/
    footer{
     height: 60px;
     background: #1d3744 ;
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
+    
    }
    footer li{
     font-size: 0.7rem;
