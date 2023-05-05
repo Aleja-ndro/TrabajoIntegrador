@@ -100,23 +100,27 @@
  }
 /*Aca comenzamos con el formulario*/
 .formu {
-    max-width: 800px;
+    max-width: 700px;
     padding: 20px;
     margin: auto;
     padding-top: 0;
+    
   }
 .form input{
     font-size: 20px;
     width: 90%;
     margin:20px auto;
     display: block;
+    border-radius: 10px;
+    border-color: lightgray;
     
    }
-.decir{
+.form .area {
     font-size: 16px;
-    width: 80%;
+    width: 10%;
     margin-top: 10px;
     display: block;
+    border-radius: 10px;
 }
 
    /* Aca comenzamos con el footer*/
@@ -127,12 +131,11 @@
     
    }
    footer li{
-    font-size: 0.7rem;
+    font-size: 1rem;
     display: inline;
     text-align: center;
     list-style: none;
     color: white;
-    
-    
+    justify-content: space-around;  
    }
-  
+
