@@ -144,7 +144,7 @@
   .footer-list {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 60px;
   }
   
   .footer-list li {
