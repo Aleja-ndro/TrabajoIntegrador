@@ -113,6 +113,7 @@
     display: block;
     border-radius: 10px;
     border-color: lightgray;
+    box-shadow: none;
     
    }
 .form .area {
@@ -122,20 +123,31 @@
     display: block;
     border-radius: 10px;
 }
+#boton{
+    background-color: #96c93e;
+    border: none;
+}
 
    /* Aca comenzamos con el footer*/
-   footer{
-    height: 60px;
-    background: #1d3744 ;
-    text-align: center;
-    
-   }
-   footer li{
-    font-size: 1rem;
-    display: inline;
-    text-align: center;
-    list-style: none;
-    color: white;
-    justify-content: space-around;  
-   }
+  
 
+   footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d3744 ;
+    color: white;
+    font-size: 1rem;
+    height: 60px;
+  }
+  
+  .footer-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .footer-list li {
+    margin-right: 10px;
+  }
+  
