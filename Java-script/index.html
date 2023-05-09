@@ -53,6 +53,43 @@
           //>mayor que
           //<=menor o igual que
           //>=mayor o igual que
+         /* if(valor=1){
+            //hago algo
+          }else if(valor=2){
+            //hago algo
+          }else if(valor=3){
+            //hago algo
+          }*/
+          // bucles while: siempre que halla un while tiene que haber una condicion 
+          //de salida {var++}
+          // el ciclo while si la condición no se cumple de entrada antes de comenzar el while 
+          // no se va a ejecutar nunca, sin enbargo el do while se va a ejecutar al menos una vez
+          //ya que la condición esta al final
+
+              var aux=0 
+                  while(aux<5){
+                     console.log('while pos.{'+aux+'}');
+                     aux++; 
+                  }
+                  do{
+                    console.log('Do while pos.{'+aux+'}');
+                    aux++;
+                  } while (aux<100);    
+              
+                  var notas=[4,5,6,2,7,3,2,7,9,8,45,false,];
+                   console.log('Valor: '+ notas[0] );
+                   console.log('Valor: '+ notas[6] );
+
+                   for(x=0;x<notas.length;x++)
+                   {
+                    console.log('El valor del array en la pos.{'+x+'}---> '
+                    +  notas[x]);
+
+                   }
+
+
+
+
 
         </script>
     </body>
