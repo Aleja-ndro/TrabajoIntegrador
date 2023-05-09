@@ -1,1 +1,1 @@
-# TrabajoIntegrador esta en la carpeta tpIntegrador, perdon el desorden , estoy practicando menejarme con github. Saludos
+# TrabajoIntegrador esta en la carpeta tpIntegrador/tp2 , perdon el desorden , estoy practicando menejarme con github. Saludos
