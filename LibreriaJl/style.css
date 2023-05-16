@@ -1,11 +1,17 @@
 body {
-    background-color: burlywood;
+    background-color: #F8F9FA;
   }
-  
+  .logo{
+    width: 6.25rem;
+  }
   #barnav {
     width: 100%;
     height: 100px; /* Cambia la altura según tus necesidades */
-    background-color: rgb(183, 96, 52);
+    background-color: #FF5A5F;
+  }
+  .impre{
+    max-width: 100%;
+    height: auto;
   }
   
   .barra {
@@ -17,8 +23,8 @@ body {
   
   .barra li {
     display: inline;
-    font-size: 2.5rem;
-    color: white;
+    font-size: 2rem;
+    color: #FFFFFF;
     margin: 25px;
     align-items: center;
     list-style: none;
@@ -30,6 +36,9 @@ body {
 .busca{
     margin-left: 2rem;
     margin-right: 1rem;
-    background-color: aquamarine;
-    
+    background-color: #00A19D;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }  
