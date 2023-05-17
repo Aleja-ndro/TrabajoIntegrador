@@ -42,3 +42,10 @@ body {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }  
+.eli{
+    width: 200px;
+    border-radius: 50%;
+}
+p{
+    font-size: 5rem;
+}
