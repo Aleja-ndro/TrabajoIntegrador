@@ -1,1 +1,1 @@
-# TrabajoIntegrador en la rama main , y luego dentro de la carpeta tp2
+# TrabajoIntegrador en la rama master , y luego dentro de la carpeta tp2
