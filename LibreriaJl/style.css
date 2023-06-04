@@ -47,5 +47,8 @@ body {
     border-radius: 50%;
 }
 p{
-    font-size: 5rem;
+    font-size: 2rem;
+}
+.nosotros{
+  text-align: center;
 }
