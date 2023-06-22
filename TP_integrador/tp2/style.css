@@ -201,3 +201,7 @@ opacity: 0.5;
   outline:none;
   height: 2.5rem;
 }
+/* Estilos adicionales */
+.article {
+  margin-bottom: 20px;
+}
